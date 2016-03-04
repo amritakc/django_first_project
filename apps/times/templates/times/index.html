@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title> My First Template in Django </title>
+        {% load staticfiles %}
+		<link rel="stylesheet" href="{% static 'home/style.css' %}">
+    </head>
+    <body>
+
+    	<h1>The Current time and date:</h1>
+
+			<p>{{current_date}}</p>
+			<p>{{current_time}}</p>
+
+    </body>
+</html>
+ 
